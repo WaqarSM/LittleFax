@@ -1,13 +1,13 @@
-# LittleFax
-Straight a copy of Little Printer from BERG that isn't around anymore, but DIY. 
+# Little Fax
+Straight a copy of Little Printer from BERG that isn't around anymore, but DIY.
 
-Not all of the code is my own, some of it, esepcially the some of the css, is from codepen.io users! Too pretty not to study/use. 
+Not all of the code is my own, some of it, esepcially the some of the css, is from codepen.io users! Too pretty not to study/use.
 
-This is very much a work in progress - but if you are reading this, drop me a line with advice! 
+This is very much a work in progress - but if you are reading this, drop me a line with advice!
 
 
 
-		
+
 # Little Fax LogBook
 
 ## Dec23:
@@ -17,7 +17,7 @@ This is very much a work in progress - but if you are reading this, drop me a li
     - Tested SSH-ing - it worked ✅
     - Tested VCN-ing - it worked ✅
     - Trying opening public port forwarding on router - did not work 😕
-        - Maybe issue is 
+        - Maybe issue is
             - Port number
             - RPi IP address
             - Something else
@@ -25,9 +25,9 @@ This is very much a work in progress - but if you are reading this, drop me a li
 
 ### Software (markup):
 - Set up basic html and css for properly sized paper
-- Made polka-dot background 
+- Made polka-dot background
     - Learned about scss (/ sassy) 💁🏻‍♀️
-    - Might have to use sassy 
+    - Might have to use sassy
 - May want to do everything in angular?
     - I’ll have to learn angular
     - Ugh seems like a lot of work
@@ -47,5 +47,3 @@ This is very much a work in progress - but if you are reading this, drop me a li
 - totally should set up a git repo
     - Ugh, that’s a tomorrow problem
     - Worried people will see my #ShitCode
-
-
