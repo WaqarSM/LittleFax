@@ -1,7 +1,7 @@
 // json pharsing
 console.log("this is running");
 var request = new XMLHttpRequest(); // declear XML http request object
-request.open("GET", "../engines/message_json/message.json", false);
+request.open("GET", "../engines/message_json/latest_message.json", false);
 request.send(null)
 var json_obj = JSON.parse(request.responseText);
 // alert (my_JSON_object.result[0]);
