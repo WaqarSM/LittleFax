@@ -47,3 +47,38 @@ This is very much a work in progress - but if you are reading this, drop me a li
 - totally should set up a git repo
     - Ugh, that’s a tomorrow problem
     - Worried people will see my #ShitCode
+
+
+## Dec24:
+
+### Hardware:
+- No work on this
+### Software (markup):
+- Learning ‘JavaScript Essential Training’ on Linkedin learning for better understanding of workflow
+    - Solid chance that this is all that gets done today - its like damn 6 hours. 
+### Software (engine) 
+- No work on this
+### General notes:
+    - [x] Make Git repo (probably GitHub) ✅
+
+## Dec25:
+
+### Hardware:
+    - Tried to get flask web server working on RPi and sent API requisitions over network
+### Software (markup):
+    - No work on this
+### Software (engine):
+    - Wrote js to read JSON and populate html page
+    - Wrote python code to read in Messages_app to write JSON
+    - Flask to host webserver and answer API calls (I think that’s what they are called )
+
+
+IDEAS: 
+- [ ] Cross works - nyt
+- [ ] Word of the day - Oxford dic. 
+- [ ] Daily briefing - nyt
+- [ ] Sudoku 
+- [ ] Picture
+- [ ] Waqar’s fun fact
+- [ ] Fax function
+- [ ] Face 
