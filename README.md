@@ -55,8 +55,8 @@ This is very much a work in progress - but if you are reading this, drop me a li
 - No work on this
 ### Software (markup):
 - Learning ‘JavaScript Essential Training’ on Linkedin learning for better understanding of workflow
-    - Solid chance that this is all that gets done today - its like damn 6 hours. 
-### Software (engine) 
+    - Solid chance that this is all that gets done today - its like damn 6 hours.
+### Software (engine)
 - No work on this
 ### General notes:
     - [x] Make Git repo (probably GitHub) ✅
@@ -72,13 +72,26 @@ This is very much a work in progress - but if you are reading this, drop me a li
     - Wrote python code to read in Messages_app to write JSON
     - Flask to host webserver and answer API calls (I think that’s what they are called )
 
+## Dec27:
+### Hardware:
+    - No work on this
+### Software (markup):
+    - Tried making my iOS app to read in the remote web-server IP and other messaging field
+        - Creates json to POST to web-sever as an API requisition
+        - Doesn’t 100% yet tbh…
+- Autho keys for API? Maybe…
+### Software (engine):
+    - No work on this
+### General notes:
+    - No work on this
 
-IDEAS: 
+
+IDEAS:
 - [ ] Cross works - nyt
-- [ ] Word of the day - Oxford dic. 
+- [ ] Word of the day - Oxford dic.
 - [ ] Daily briefing - nyt
-- [ ] Sudoku 
+- [ ] Sudoku
 - [ ] Picture
 - [ ] Waqar’s fun fact
 - [ ] Fax function
-- [ ] Face 
+- [ ] Face
