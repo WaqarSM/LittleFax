@@ -1,7 +1,104 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Content View-->
+        <scene sceneID="9HP-IQ-Ggn">
+            <objects>
+                <viewController id="XNk-YO-aiL" customClass="ContentView" customModule="MyFirstApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NWe-yb-X3A">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="0Ww-FL-mFk">
+                                <rect key="frame" x="48" y="311" width="318" height="394"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Remote IP Adress" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Yht-xO-nGF">
+                                        <rect key="frame" x="0.0" y="0.0" width="318" height="34"/>
+                                        <color key="textColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        <connections>
+                                            <action selector="remoteIP:" destination="XNk-YO-aiL" eventType="editingDidEnd" id="jLL-n6-o9z"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="From:" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="zlP-nf-p5M">
+                                        <rect key="frame" x="0.0" y="60" width="318" height="34"/>
+                                        <color key="textColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="name"/>
+                                        <connections>
+                                            <action selector="fromField:" destination="XNk-YO-aiL" eventType="editingDidEnd" id="3sY-lq-tZI"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="To:" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="161-E0-uvw">
+                                        <rect key="frame" x="0.0" y="120" width="318" height="34"/>
+                                        <color key="textColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="name"/>
+                                        <connections>
+                                            <action selector="toField:" destination="XNk-YO-aiL" eventType="editingDidEnd" id="FIC-JR-yjC"/>
+                                        </connections>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Message:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZbQ-Ho-5di">
+                                        <rect key="frame" x="0.0" y="180" width="318" height="130"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="textColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGI-4k-aNw">
+                                        <rect key="frame" x="0.0" y="336" width="318" height="58"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <rect key="contentStretch" x="0.5" y="0.0" width="1" height="1"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
+                                        <state key="normal" title="Sent the request">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="requestSubmitTapped:" destination="XNk-YO-aiL" eventType="touchUpInside" id="uhv-hG-KTO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This will hopefully send an API request to a remote server &amp; get back a reply." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Nt-cU-gzX">
+                                <rect key="frame" x="47" y="102" width="320" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="ma3-yb-3a8"/>
+                                    <constraint firstAttribute="width" constant="320" id="u6n-Hq-0qs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95128319299999997" green="0.95128319299999997" blue="0.95128319299999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7Nt-cU-gzX" firstAttribute="centerX" secondItem="NWe-yb-X3A" secondAttribute="centerX" id="975-A0-iej"/>
+                            <constraint firstItem="0Ww-FL-mFk" firstAttribute="centerX" secondItem="NWe-yb-X3A" secondAttribute="centerX" id="S7U-vH-OeR"/>
+                            <constraint firstItem="7Nt-cU-gzX" firstAttribute="top" secondItem="8Hr-0J-yc2" secondAttribute="top" constant="58" id="Vmk-Fq-oxO"/>
+                            <constraint firstItem="0Ww-FL-mFk" firstAttribute="leading" secondItem="8Hr-0J-yc2" secondAttribute="leading" constant="48" id="ddD-9f-bkr"/>
+                            <constraint firstItem="8Hr-0J-yc2" firstAttribute="bottom" secondItem="0Ww-FL-mFk" secondAttribute="bottom" constant="157" id="jci-X2-Hd7"/>
+                            <constraint firstItem="7Nt-cU-gzX" firstAttribute="centerX" secondItem="NWe-yb-X3A" secondAttribute="centerX" id="tD6-aA-fjm"/>
+                            <constraint firstItem="0Ww-FL-mFk" firstAttribute="top" secondItem="7Nt-cU-gzX" secondAttribute="bottom" constant="81" id="vEv-GO-J7o"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8Hr-0J-yc2"/>
+                    </view>
+                    <connections>
+                        <outlet property="MessageField" destination="ZbQ-Ho-5di" id="egy-0W-EmF"/>
+                        <outlet property="mess_f_strong" destination="ZbQ-Ho-5di" id="YTa-GF-KDO"/>
+                        <outlet property="messageField" destination="ZbQ-Ho-5di" id="AOP-YE-hdE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DlL-KZ-2pB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
 </document>
