@@ -50,17 +50,24 @@ background-color: white;
 }
 
 h2 {
-  border-style: dashed;
+  /* border-style: dashed;
   border-width: 3px;
   border-left-width: 10px;
   border-right-width: 10px;
-  border-color: gray-dark;
+  border-color: gray-dark; */
+    font-family: 'Long Cang';
+    font-size: 20px;
+    align: "left";
 }
 
 h1{
   color: gray-dark;
   font-family: 'Sofia';font-size: 29px;
 line-height: 0.7em;
+}
+
+p{
+  font-family: 'Courier New'; font-size: 17pn;
 }
 
 

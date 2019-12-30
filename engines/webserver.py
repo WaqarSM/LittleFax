@@ -32,3 +32,9 @@ api.add_resource(MessageApp,'/MessageApp')
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0",port=5000,debug=True)
+
+
+
+# curl -H "Content-Type: application/json" -X POST -d '{"from":"Waqar","to":"Albert E.","text":"YOOOO Homies, lets hope this works!! gang gang"}' 192.168.0.35:5000/MessageApp
+
+ # curl -H "Content-Type: application/json" -X POST -d '{"from":"Waqar","to":"Albert E.","text":"YOOOO Homies, lets hope this works!! gang gang"}' 127.0.0.1:5000/MessageApp
