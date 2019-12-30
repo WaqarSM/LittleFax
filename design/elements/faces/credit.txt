@@ -1,0 +1,4 @@
+All this faces were taken from:
+https://github.com/nordprojects/littleprinters-ios-app
+and
+https://github.com/nordprojects/sirius
