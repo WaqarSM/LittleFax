@@ -1,7 +1,7 @@
 # Little Fax
 Straight a copy of Little Printer from BERG that isn't around anymore, but DIY.
 
-Not all of the code is my own, some of it, esepcially the some of the css, is from codepen.io users! Too pretty not to study/use.
+Not all of the code is my own, some of it, especially the some of the css, is from codepen.io users! Too pretty not to study/use.
 
 This is very much a work in progress - but if you are reading this, drop me a line with advice!
 
