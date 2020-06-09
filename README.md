@@ -85,6 +85,21 @@ This is very much a work in progress - but if you are reading this, drop me a li
 ### General notes:
     - No work on this
 
+## Dec29:
+
+### Hardware:
+    - Nothing done of this
+### Software (markup):
+    - Nothing done of this
+### Software (engine):
+    - iOS app for messaging is ready and on me phone!! 🧨
+      - Still need to set it up to send POST request
+
+
+## Jan 2nd 2020 🥳
+### Hardware:
+      - Make a mock up of the enclosure, looks pretty fly IMHO.     
+
 
 IDEAS:
 - [ ] Cross works - nyt
@@ -94,4 +109,4 @@ IDEAS:
 - [ ] Picture
 - [ ] Waqar’s fun fact
 - [ ] Fax function
-- [ ] Face
+- [ ✅] Face
